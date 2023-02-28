@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+<body>
+
+<h3>SignUp Page</h3>
+
+<div>
+  <form method="POST" name="google-sheet">
+    <label for="Lemail">Email</label>
+    <input type="text" id="Temail" name="Email" placeholder="Your email..">
+
+    <label for="Lpassword">Password</label>
+    <input type="text" id="Tpassword" name="Password" placeholder="Your Password.. ( never forget yout Password )">
+
+    <label for="Lmobile">Mobile Number</label>
+    <input type="text" id="Tname" name="Mobile" placeholder="Your name..">
+
+    <input type="submit" value="Submit" name="Submit_button" >
+    <input type="Have_acc" value="Allready have an account ?" name="Having_Button">
+  </form>
+</div>
+    <script>
+        const scriptURL = 
+        'https://script.google.com/macros/s/AKfycbyoVoNtohH4hlXqRaDRJphjMGu2oUR9bP_6QvqnzV3HNR7bqc33XzReuYjGtKdp-IHPGA/exec'
+        const form = document.forms['google-sheet']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body:new FormData(form)})
+            .then(Response => alert("remember your password wvery time bec for now there is no remember system :/"))
+            .catch(console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>
+
+
