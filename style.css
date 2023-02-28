@@ -1,0 +1,104 @@
+
+   
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  font-size: medium;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=Have_acc] {  
+  background-color: #90f995;
+  width: 40%;
+  font-size:0.34567834235234523432542323432523cm;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 11px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+}
+input[type=Have_acc]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #dedcdc;
+  padding: 20px;
+}   
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+font-size: medium;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+input[type=Have_acc] {  
+background-color: #90f995;
+width: 40%;
+font-size:0.34567834235234523432542323432523cm;
+text-align: center;
+background-color: #4CAF50;
+color: white;
+padding: 11px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+
+}
+input[type=Have_acc]:hover {
+background-color: #45a049;
+}
+
+div {
+border-radius: 5px;
+background-color: #dedcdc;
+padding: 20px;
+}
